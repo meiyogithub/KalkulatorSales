@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KalkulatorSales</string>
+    <string name="kalkulator_sales">Kalkulator Sales</string>
+    <string name="nama_pembeli">Nama Pembeli</string>
+    <string name="harga_motor">Harga Motor</string>
+    <string name="dp">DP</string>
+    <string name="tenor">Tenor</string>
+    <string name="bunga">Bunga</string>
+    <string name="hitung">Hitung</string>
+    <string name="pokok_hutang">Pokok Hutang</string>
+    <string name="total_bunga">Total Bunga</string>
+    <string name="total_hutang">Total Hutang</string>
+    <string name="hasil_angsuran">Hasil Angsuran</string>
+    <string name="hasil_perhitungan">Hasil Perhitungan</string>
+    <string name="angsuran">Angsuran</string>
+</resources>

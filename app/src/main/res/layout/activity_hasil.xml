@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HasilActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:text="@string/hasil_perhitungan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_pembeli"
+        android:layout_marginStart="10dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilPembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/harga_motor"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilDp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pokok_hutang"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilPokokHutang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_bunga"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilTotalBunga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_hutang"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_hasilTotalHutang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/angsuran"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasilAngsuran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+
+</LinearLayout>

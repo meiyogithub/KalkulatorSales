@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:text="@string/kalkulator_sales"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/vespa"/>
+
+    <TextView
+        android:id="@+id/tv_namaPembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_pembeli"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_namaPembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Nama Pembeli"/>
+
+    <TextView
+        android:id="@+id/tv_hargaMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/harga_motor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_hargaMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Harga Motor"/>
+
+    <TextView
+        android:id="@+id/tv_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="DP"/>
+
+    <TextView
+        android:id="@+id/tv_tenor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tenor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_tenor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Tenor"/>
+
+    <TextView
+        android:id="@+id/tv_bunga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bunga"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_bunga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Bunga"/>
+
+    <Button
+        android:id="@+id/button_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/hitung"
+        android:background="@drawable/button"
+        android:onClick="fungsiHitung"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by RFA"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
+
+</ScrollView>
